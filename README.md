@@ -48,5 +48,17 @@ from camera input to motor speed control.
 ![Arduino & Motor Driver](hardware1.jpg)
 
 The hardware system consists of an Arduino Uno, motor driver, DC motor, IR RPM sensor, and a camera for real-time speed limit detection and control.
-   
+  ## 💻 AI Model in Action
+
+The image below shows the Python program running on a laptop while detecting speed limit signs in real-time using the trained TFLite model.
+
+![AI in Action](MLmodelworking.jpg)
+ ## 🌟 Future Enhancements: 
+
+- Detect more speed signs beyond 40 and 60 km/h.
+- Vehicle-to-vehicle communication for coordinated driving.
+- Upgrade AI model for more accurate detection in complex road conditions.
+- Integrate with a mobile app for real-time speed and alerts.
+- Implement automatic braking or driver warning for overspeed.
+- Connect with IoT/GPS for smart city applications.
 
