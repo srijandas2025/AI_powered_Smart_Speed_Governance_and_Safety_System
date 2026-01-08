@@ -24,4 +24,14 @@ from camera input to motor speed control.
 2. Python detects speed limit signs using a TFLite model.
 3. Detected speed is sent to Arduino via serial communication.
 4. Arduino controls motor speed using PWM and IR sensor feedback.
+## 🔧 Hardware Implementation
+
+### Complete Hardware Setup
+![Hardware Setup](hardware2.jpg)
+
+### Arduino and Motor Driver Connection and Motor and IR Sensor for RPM Feedback
+![Arduino & Motor Driver](hardware1.jpg)
+
+The hardware system consists of an Arduino Uno, motor driver, DC motor, IR RPM sensor, and a camera for real-time speed limit detection and control.
+   
 
