@@ -24,6 +24,21 @@ from camera input to motor speed control.
 2. Python detects speed limit signs using a TFLite model.
 3. Detected speed is sent to Arduino via serial communication.
 4. Arduino controls motor speed using PWM and IR sensor feedback.
+## 🔹 Why This Project is Different from Others
+
+- **Real-Time AI Detection:** Unlike many conventional speed control projects, this system uses a TensorFlow Lite model to detect speed limit signs from a live camera feed, making it dynamic and responsive to real-world conditions.
+
+- **Closed-Loop RPM Feedback:** An IR sensor measures the motor RPM, allowing the Arduino to adjust the motor speed automatically and accurately according to the detected speed limit, which most other projects lack.
+
+- **Full Hardware-Software Integration:** This project combines Python (AI + image processing + serial communication) with Arduino and motor driver hardware, ensuring an end-to-end functional system.
+
+- **Fail-Safe Default Speed:** If no sign is detected for a defined period, the system returns to a normal cruising speed, ensuring safe and consistent operation.
+
+- **Demonstrated on Real Hardware:** Unlike simulation-only projects, this system works on an actual DC motor setup, showing real-time motor speed changes in response to AI-detected speed signs.
+
+- **Practical Driver Assistance:** The combination of AI, real-time feedback, embedded hardware, and fail-safe mechanisms makes this project a unique, practical, and reliable solution for improving road safety.
+
+   
 ## 🔧 Hardware Implementation
 
 ### Complete Hardware Setup
