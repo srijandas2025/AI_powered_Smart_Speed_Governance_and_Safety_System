@@ -13,3 +13,15 @@ If no speed sign is detected for a defined time period, the system automatically
 -Arduino Uno
 -IR Sensor
 -Motor Driver
+## 🔄 System Flowchart
+
+The flowchart below shows the complete working process of the project, 
+from camera input to motor speed control.
+
+![System Flowchart](system_flowchart.png)
+### Flow Explanation
+1. Camera captures real-time road images.
+2. Python detects speed limit signs using a TFLite model.
+3. Detected speed is sent to Arduino via serial communication.
+4. Arduino controls motor speed using PWM and IR sensor feedback.
+
