@@ -62,3 +62,8 @@ The image below shows the Python program running on a laptop while detecting spe
 - Implement automatic braking or driver warning for overspeed.
 - Connect with IoT/GPS for smart city applications.
 ## MVP Link: https://drive.google.com/file/d/1T5wWHlUH8yvRRMST0nfJuNSs9h1BSCEN/view?usp=sharing 
+## Demo video Link(yt):  https://youtu.be/cnVCr7-kfW4?si=XE4S6ItqduAQGJJV
+## OVERVIEW PPT LINK: https://drive.google.com/file/d/1JOvDRLMsXrkApvgmG_pzZO4K9Q7qRe4J/view?usp=sharing
+## Explaination PPT LINK : https://docs.google.com/presentation/d/1CQRSeGI408Qp89yjz7XpmMtESwqvTJgJ/edit?usp=drivesdk&ouid=112701685176121377310&rtpof=true&sd=true
+
+## Thank You For Here.
